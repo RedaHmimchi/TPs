@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Client</title>
+    </head>
+    <section">
+        <fieldset style="margin: 0 auto;width: 450px;">
+            <legend><h3>Client</h3></legend>
+            <table>
+                <tr>
+                    <th style="text-align: left;">
+                        <label><strong>Civilite</strong></label>
+                    </th>
+                    <td>
+                        <form>
+                            <div>
+                                <input type="radio" id="choice1" value="mademoiselle" name="civilite">
+                                <label for="choice1">Mademoiselle</label>
+                                <input type="radio"  id="choice2" value="madame" name="civilite">
+                                <label for="choice2">Madame</label>
+                                <input type="radio"  id="choice3" value="monsieur" name="civilite">
+                                <label for="choice3">Monsieur</label>
+                            </div>
+                        </form>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">
+                        <label><strong>Nom / Prenom</strong></label>
+                    </th>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">
+                        <label><strong>Adress</strong></label>
+                    </th>
+                    <td>
+                        <textarea name="adress" cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">No Postal</th>
+                    <td><input type="text" name="zip" id="zip"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Localite</th>
+                    <td><input type="text" name="local" id="local"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Pays</th>
+                    <td>
+                        <select name="pays" id="pays">
+                            <option value="bureautique">Maroc</option>
+                            <option value="sgbd">France</option>
+                            <option value="dao">USA</option>
+                            <option value="internet">Spain</option>
+                            <option value="statistiques">Canada</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">
+                        <label><strong>Plateforme(s)</strong></label>
+                    </th>
+                    <td>
+                        <input type="checkbox" name="plateforme" id="plateforme">
+                        <label for="plateforme">Windows</label>
+                        <input type="checkbox" name="plateforme" id="mac">
+                        <label for="mac">Mac</label>
+                        <input type="checkbox" name="plateforme" id="unix">
+                        <label for="unix">Unix</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Application</th>
+                    <td>
+                        <select name="application" id="app" size="5" multiple="multiple">
+                            <option value="bureautique">Bureautique</option>
+                            <option value="sgbd">SGBD</option>
+                            <option value="dao">DAO</option>
+                            <option value="internet">internet</option>
+                            <option value="statistiques">Statistiques</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <p></p>
+        <button style="position: relative;left: 40%;"><a style="text-decoration: none;color: black;" href="./FORM1.html">Soumettre formulaire</a></button>
+        <button style="position: relative;left: 40%;"><a style="text-decoration: none;color: black;" href="./FORM1.html">Effacer</a></button>
+    </section>
+</html>

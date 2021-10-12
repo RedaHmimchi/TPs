@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #chn{
+          background-color: crimson;
+          margin-right: 15px;   
+          border-radius: 5px;   
+        }
+        #chn:hover{
+      background-color: #000000;
+      color: white;
+    }
+    button:hover{
+      background-color: #801616;
+      color: rgb(255, 255, 255);
+    }
+    
+        a{
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          text-align: center;
+          
+        }
+      </style>
+<head>
+    <meta charset="utf-8" />
+    <title>Philosophes et leurs oeuvres </title>
+</head>
+ 
+ <body style="margin: auto;align-items: center;">
+    <header style="background: #E9E0D1;height: 200px;width: 100%;text-align: center;top: 0px;margin-top: -15px;">
+        <a href="./index.html"><img align="left" style="margin-top: 30px;font-family: verdana; margin-left: 20px;" src="./ofppt.png" alt="OFPPT" width="200" height="130"></a>
+        <p> <br> LA PHILOSOPHIE C'EST L'ART DE SE COMPLIQUER LA VIE TOUT EN CHERCHANT A SE CONVAINCRE DE SA SIMPLICITE</p> <br><u style="text-align: center;">Frederic Dard <br></u>
+        <nav style="list-style-type: none;display: inline-flex;font: verdana;font-family: verdana; margin-top: 40px;">
+            <button id="chn"><a href="./index.html"><li style="margin-right: 15px;">Accueil</li></a></button>
+            <button id="chn"><a href="./descartes.html"><li style="margin-right: 15px;">Descartes</li></a></button>
+            <button id="chn"><a href="./camus.html"><li style="margin-right: 15px;">Albert Camus </li></a></button>
+            <button id="chn"><a href="./nietch.html"><li style="margin-right: 15px;">Nietzche</li></a></button>
+            <button id="chn"><a href="./giono.html"><li style="margin-right: 15px;">Jean Giono</li></a></button>
+            <button id="chn"><a href="./sondage.html"><li style="margin-right: 15px;">Sondage</li></a></button>
+        </nav>
+    </header>    
+   <section style="margin: 20px;">
+    <p style="border-color: rgb(210, 200, 200) 5px;border-style: groove;text-align: center;text-transform: uppercase;height: 20px;padding: 10px;">Preiere de remplir les champs suivants</p> 
+    <table style="margin: auto;padding: 10px;">
+        <tr style="text-align: left;">
+            <th style="background-color: rgb(255, 202, 196);height: 50px;"><p style="margin-left: 9PX; font-family: Verdana, Geneva, Tahoma, sans-serif ;">NOM</p></th>
+            <td>
+                <input style="margin-left: 10px;" type="text" name="Nom" placeholder="Saisir votre nom">
+            </td>
+        </tr>
+        <tr style="text-align: left;">
+            <th><p style="margin-left: 9PX; font-family: Verdana, Geneva, Tahoma, sans-serif ;">PRENOM</p></th>
+            <td>
+                <input style="margin-left: 10px;" type="text" name="Prenom" placeholder="Saisir votre prenom">
+            </td>
+        </tr>
+        <tr style="text-align: left;">
+            <th style="background-color: rgb(255, 202, 196);height: 50px;"><p style="margin-left: 9PX; font-family: Verdana, Geneva, Tahoma, sans-serif ;">EMAIL</p></th>
+            <td>
+                <input style="margin-left: 10px;" type="text" name="Email" placeholder="Saisir votre email">
+            </td>
+        </tr>
+        <tr style="text-align: left;">
+            <th><p style="margin-left: 9PX; font-family: Verdana, Geneva, Tahoma, sans-serif ;">COMMENT AVEZ VOUS CONNU NOTRE PAGE?</p></th>
+            <td>
+                <textarea style="margin-left: 10px;" name="textarea1" cols="40" rows="20"></textarea>
+            </td>
+        </tr>
+        <tr style="text-align: left;">
+            <th style="background-color: rgb(255, 202, 196);height: 50px;"><p style="margin-left: 9PX; font-family: Verdana, Geneva, Tahoma, sans-serif ;">CHOISIR un PHILOSHOPE</p></th>
+            <td>
+                <select style="margin-left: 10px;" name="philosophe" >
+                    <option >René Descartes</option>
+                    <option >Albert Camus</option>
+                    <option >Friedrich Nietzche</option>
+                    <option >Jean Giono</option>
+                </select>
+            </td>
+        </tr>
+        <tr style="text-align: left;">
+            <th><p style="margin-left: 9PX; font-family: Verdana, Geneva, Tahoma, sans-serif ;">GENRE</p></th>
+            <td>
+                <input style="margin-left: 10px;" type="radio" id="Choice1" name="genre" value="femme">
+                <label for="Choice1">FEMME</label>
+                <input style="margin-left: 10px;" type="radio" id="Choice2" name="genre" value="homme">
+                <label for="Choice2">HOMME</label>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <div style="border-color: rgb(255, 202, 196) 5px;border-style: groove;align-items: center; width: 200px; height: 30px; display: flex;align-items: center; padding: 10px;">
+                    <a href="./sondage.html"><button style="display: flex; margin-left: 29px; background-color: rgb(255, 202, 196);border-radius: 3px;">Submit</button></a>
+                    <a href="./sondage.html"><button style="margin-left: 15px;background-color: rgb(255, 202, 196);border-radius: 3px;">Initialiser</button></a>
+                </div>
+            </td>
+        </tr>
+    </table>
+   </section>
+ </body>
+ <p><br></p>
+ <footer style="background: #E9E0D1;text-align: center; height: 60px;text-size-adjust: 12px;bottom: 0px;right: 0px;left: 0px;">Copyright Reda Hmimchi 2021</footer>
+</html>

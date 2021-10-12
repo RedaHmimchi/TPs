@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Client</title>
+    </head>
+    <section>
+        <fieldset>
+            <legend><h3>Client</h3></legend>
+            <table>
+                <tr>
+                    <th>
+                        <label><strong>Civilite</strong></label>
+                    </th>
+                    <td>
+                        <input type="radio" name="mademoiselle" id="mademoiselle">
+                        <label for="mademoiselle">Mademoiselle</label>
+                        <input type="radio" name="madame" id="madame">
+                        <label for="madame">Madame</label>
+                        <input type="radio" name="" id="monsieur">
+                        <label for="monsieur">Monsieur</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label><strong>Nom / Prenom</strong></label>
+                    </th>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label><strong>Adress</strong></label>
+                    </th>
+                    <td>
+                        <textarea name="adress" cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label><strong>Plateforme(s)</strong></label>
+                    </th>
+                    <td>
+                        <input type="checkbox" name="plateforme" id="plateforme">
+                        <label for="plateforme">Windows</label>
+                        <input type="checkbox" name="plateforme" id="mac">
+                        <label for="mac">Mac</label>
+                        <input type="checkbox" name="plateforme" id="unix">
+                        <label for="unix">Unix</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <button>Soumettre formulaire</button>
+        <button>Effacer</button>
+    </section>
+</html>
