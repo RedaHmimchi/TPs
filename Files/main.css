@@ -73,7 +73,6 @@ th{
 }
 body{
     background-image: url(./wallpaper.png);
-    background-repeat: no-repeat;
     background-position-y: -100px;
     background-size: 100%;
     
