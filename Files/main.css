@@ -75,5 +75,4 @@ body{
     background-image: url(./wallpaper.png) no-repeat center center fixed;
     background-position-y: -100px;
     background-size: 100%;
-    background-size: cover;
 }
