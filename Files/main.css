@@ -72,7 +72,7 @@ th{
     color: #FFFFFF;
 }
 body{
-    background-image: url(./wallpaper.png) no-repeat center center fixed;
+    background-image: url(./wallpaper.png);
     background-position-y: -100px;
     background-size: 100%;
 }
