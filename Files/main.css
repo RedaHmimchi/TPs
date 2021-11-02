@@ -72,8 +72,11 @@ th{
     color: #FFFFFF;
 }
 body{
-    background-image: url(./wallpaper.png);
+    background-image: url(./wallpaper.png) no-repeat center center fixed;
     background-position-y: -100px;
     background-size: 100%;
-    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
