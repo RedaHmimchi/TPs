@@ -1,0 +1,77 @@
+#bodyy{
+    width: 100%;
+    border: rgb(0, 0, 0);
+    border-style: double;
+    width: 40%;
+    margin: auto;
+    
+}
+#head{
+    display: flex;
+}
+#name{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+#photo{
+    display: inline;
+    float: right;
+    margin-left: auto;
+    
+}
+
+#img{
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+#formation{
+    display: flex;
+    
+}
+#form1{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+#form2{
+    display: inline;
+    float: right;
+    margin-left: 50px;
+}
+#langues{
+    display: flex;
+}
+#lang1{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 22px;
+}
+#lang2{
+    display: inline;
+    float: right;
+    margin-left: 150px;
+}
+#experiance{
+    display: flex;
+}
+#exp1{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+#exp2{
+    display: inline;
+    float: right;
+    margin-left: 18px;
+}
+#t1{
+    color: rgb(17, 94, 236);
+    margin-left: 45px;
+
+}
+
+
